@@ -8,74 +8,9 @@
 
 body {
     background-color: rgb(245, 240, 240) !important;
-    /*!important means to add more importance to a property/value than normal.In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!.*/
-    /* height: 200vh; */
 }
-
 
 /* header position start  */
-.header {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-/* navbar top start  */
-.nav_bar-top {
-    background-color: #fcf6f6;
-    width: 100%;
-    /* height: 16vh; */
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.text-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 20px 30px; */
-}
-
-.text-content {
-    display: flex;
-    text-align: center;
-}
-
-.para-text {
-    margin: 0px 4px;
-    font-size: 17px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.589);
-}
-
-.para-text-icon {
-    padding: 0px 6px;
-}
-
-.social-icon {
-    color: rgb(224, 0, 0);
-    margin: 0px 7px;
-    padding: 0px 5px;
-    font-size: 21px;
-    cursor: pointer;
-}
-
-.social-icon:hover {
-    color: rgb(117, 6, 6);
-}
-
-.navbar-container {
-    position: absolute;
-    top: 60px;
-    /* left: 52px; */
-    left: 70px;
-    width: 90%;
-    background-color: white;
-    padding: 16px 38px;
-    z-index: 55;
-}
-
 .nav-brand-logo {
     font-size: 38px;
     font-weight: 700;
@@ -98,10 +33,6 @@ body {
     color: rgba(255, 102, 0, 0.911);
 }
 
-/* navbar top end  */
-
-
-/* header home start  */
 .home-section {
     width: 100%;
     height: 84%;
@@ -110,29 +41,22 @@ body {
 .home-content {
     width: 100%;
     height: 84vh;
-    background-position: right;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: -55;
 }
 
 .img-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/home_img1.jpg);
-    /* height: 600px; */
 }
 
 .img-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/home_img2.jpg);
-    /* height: 600px; */
 }
 
 .content-home {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; */
     text-align: center;
     color: white;
 }
@@ -148,7 +72,6 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     margin: 10px 0px;
-    /* text-align: center; */
 }
 
 .btn-home {
@@ -168,61 +91,13 @@ body {
     color: white;
 }
 
-/* header home end  */
 /* end header section  */
-
-/* silection section start  */
-.silection {
-    width: 90%;
-    height: 20vh;
-    background-color: rgb(255, 250, 250);
-    position: absolute;
-    bottom: -80px;
-    left: 70px;
-    padding: 0px 26px;
-    box-shadow: 2px 2px 14px rgb(145, 142, 142);
-}
-
-.silection-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.boxes {
-    padding: 14px 20px;
-    width: 180px;
-    margin: 0px 10px;
-    outline: none;
-}
-
-.select-btn {
-    display: inline-block;
-    padding: 14px 30px;
-    background-color: rgb(209, 95, 2);
-    text-decoration: none;
-    color: white;
-    font-size: px;
-    font-weight: 600;
-    margin: 0px 10px;
-    transition: 0.3s ease-in;
-}
-
-.select-btn:hover {
-    background-color: rgb(229, 120, 22);
-    color: white;
-}
-
-/* silection end  */
 
 /* about section start  */
 /* about heading start */
 .about {
     width: 100%;
     height: auto;
-    margin-top: 120px;
 }
 
 .heading-about {
@@ -234,28 +109,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding: 20px 0px;
-    position: relative;
-}
-
-.heading-about::before {
-    content: "";
-    position: absolute;
-    top: 44px;
-    left: 200px;
-    width: 149px;
-    height: 3px;
-    background-color: red;
-
-}
-
-.heading-about::after {
-    content: "";
-    position: absolute;
-    top: 44px;
-    right: 200px;
-    width: 149px;
-    height: 3px;
-    background-color: red;
 }
 
 .para-about-details {
@@ -266,16 +119,11 @@ body {
     margin-top: 0px;
     text-align: center;
     margin: auto;
-    max-width: 1000px;
 }
 
 /* about heading end  */
 
 /* about content start  */
-.about-us-content {
-    margin-top: 50px;
-}
-
 .img-about {
     width: 100%;
     height: 380px;
@@ -311,7 +159,6 @@ body {
     text-align: center;
     width: 100%;
     height: auto;
-    margin-top: 120px;
     padding: 24px 0px;
 }
 
@@ -395,7 +242,6 @@ body {
     height: auto;
     text-align: center;
     padding: 10px 0px;
-    margin-top: 120px;
 }
 
 .content-packages {
@@ -477,7 +323,6 @@ footer {
     width: 100%;
     height: auto;
     background-color: rgb(31, 29, 29);
-    margin-top: 120px;
     padding: 14px;
 }
 

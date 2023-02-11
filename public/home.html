@@ -20,79 +20,53 @@
 </head>
 
 <body>
-    <!-- start header  -->
-    <div class="header">
-        <!-- NAVBAR TOP START  -->
-        <div class="nav_bar-top">
-            <div class="container-fluid">
-                <div class="text-container">
-                    <div class="text-content">
-                        <p class="para-text"><span class="bi bi-envelope para-text-icon"></span>emailid@gmail.com</p>
-                        <p class="para-text"><span class="bi bi-phone para-text-icon"></span>0123456789</p>
-                    </div>
-
-                    <div class="social-links">
-                        <span class="bi bi-facebook social-icon"></span>
-                        <span class="bi bi-instagram social-icon"></span>
-                        <span class="bi bi-whatsapp social-icon"></span>
-                        <span class="bi bi-snapchat social-icon"></span>
-                        <span class="bi bi-twitter social-icon"></span>
-                    </div>
-
-                    <div class="navbar-container">
-                        <!-- bootstrap navbar -->
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="../index.html">
-                                    <h3 class="nav-brand-logo">Turi<span>st.</span></h3>
+    <header>
+        <div class="navbar-container">
+            <!-- bootstrap navbar -->
+            <nav class="navbar navbar-expand-lg px-2">
+                <div class="container-fluid p-3">
+                    <a class="navbar-brand" href="../index.html">
+                        <h3 class="nav-brand-logo">Turi<span>st.</span></h3>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active link-warning" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tours&services.html">Tours & Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="packages.html">Packages</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    FAQ
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                    <ul class="navbar-nav ms-auto">
-                                        <li class="nav-item">
-                                            <a class="nav-link active  link-warning" aria-current="page"
-                                                href="home.html">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
-                                        </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link" href="tours.html">Tours</a>
-                                        </li> -->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="tours&services.html">Tours & Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="packages.html">Packages</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                FAQ
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                                <li><a class="dropdown-item" href="about.html">Company</a></li>
-                                                <li><a class="dropdown-item" href="contact.html">Experience</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                        <!-- bootstrap navbar end  -->
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="about.html">Company</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Experience</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
+            <!-- bootstrap navbar end  -->
         </div>
-        <!-- nav_bar-top end  -->
 
         <!-- start home section  -->
         <div class="home-section">
@@ -140,49 +114,13 @@
             </div>
         </div>
         <!-- end home section  -->
+    </header>
 
-    </div>
-    <!-- end header  -->
-
-    <!-- start silection  -->
-    <div class="silection">
-        <div class="silection-container">
-            <select name="Countrys" id="Countrys" class="countries boxes">
-                <option value="country0">Countries</option>
-                <option value="country0">India</option>
-                <option value="country0">Africa</option>
-                <option value="country0">Srilanka</option>
-                <option value="country0">Amerika</option>
-            </select>
-            <select name="Destination" id="Destination" class="destination boxes">
-                <option value="destination">Destination</option>
-                <option value="country0">India</option>
-                <option value="country0">Africa</option>
-                <option value="country0">Srilanka</option>
-                <option value="country0">Amerika</option>
-            </select>
-            <select name="Budget" id="Budget" class="budgets boxes">
-                <option value="budgets">Budget</option>
-                <option value="country0">1000</option>
-                <option value="country0">2000</option>
-                <option value="country0">3000</option>
-                <option value="country0">4000</option>
-            </select>
-            <select name="Duration" id="Duration" class="duration boxes">
-                <option value="duration">Duration</option>
-                <option value="country0">1000</option>
-                <option value="country0">2000</option>
-                <option value="country0">3000</option>
-                <option value="country0">4000</option>
-            </select>
-            <a href="#" class="select-btn">Submit</a>
-        </div>
-    </div>
-    <!-- end silection  -->
 
     <!-- About Section  -->
-    <section class="about">
+    <section class="about mt-5">
         <h2 class="heading-about">ABOUT OUR TRAVEL AGENCY</h2>
+        <hr>
         <p class="para-about-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eaque hic incidunt
             ducimus, voluptates unde odit eos itaque velit, accusamus iure distinctio mollitia facilis dolorem inventore
             deleniti? Doloribus, enim eaque.</p>
@@ -222,7 +160,7 @@
     <!-- End about section  -->
 
     <!-- Start Services  -->
-    <section class="services">
+    <section class="services mt-5">
         <h4 class="heading_sm">Services</h4>
         <h2 class="heading_lg">Travel & Tour Services</h2>
         <div class="container container-services">
@@ -277,7 +215,7 @@
     <!-- Service section end  -->
 
     <!-- Packages section start  -->
-    <section class="packages">
+    <section class="packages mt-5">
         <h4 class="heading_sm">Packages</h4>
         <h2 class="heading_lg">Travel & Tour Packages</h2>
 
@@ -360,7 +298,7 @@
     <!-- Packages Section End  -->
 
     <!-- footer start  -->
-    <footer>
+    <footer class="mt-5">
         <div class="footer-container">
             <div class="container">
                 <div class="row">
