@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- add css -->
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- Connect with Bootstrap, Bootstrap-icons & googlefonts -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- start header  -->
+    <div class="container-fluid m-0 p-0 header">
+        <!-- NAVBAR TOP START  -->
+        <div class="nav_bar-top">
+            <div class="container-fluid">
+                <div class="text-container">
+                    <div class="text-content">
+                        <p class="para-text"><span class="bi bi-envelope para-text-icon"></span>emailid@gmail.com</p>
+                        <p class="para-text"><span class="bi bi-phone para-text-icon"></span>0123456789</p>
+                    </div>
+
+                    <div class="social-links">
+                        <span class="bi bi-facebook social-icon"></span>
+                        <span class="bi bi-instagram social-icon"></span>
+                        <span class="bi bi-whatsapp social-icon"></span>
+                        <span class="bi bi-snapchat social-icon"></span>
+                        <span class="bi bi-twitter social-icon"></span>
+                    </div>
+
+                    <div class="navbar-container">
+                        <!-- bootstrap navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand active" href="index.html">
+                                    <h3 class="nav-brand-logo">Turi<span>st.</span></h3>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="public/home.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="public/about.html">About</a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                                            <a class="nav-link" href="public/tours.html"></a>
+                                        </li> -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="public/tours&services.html">Tours & Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="public/packages.html">Packages</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                FAQ
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="public/about.html">About Us</a></li>
+                                                <li><a class="dropdown-item" href="public/about.html">Company</a></li>
+                                                <li><a class="dropdown-item" href="public/contact.html">Experience</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="public/contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- bootstrap navbar end  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav_bar-top end  -->
+
+        <!-- start home section  -->
+        <div class="home-section">
+            <div class="container-fluid gx-0">
+
+                <!-- bootstrap carousel  -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <div class="home-content img-1">
+                                <div class="content-home">
+
+                                    <h3 class="heading-home">LATE US TAKE YOU TO YOUR</h3>
+                                    <h2 class="heading-lg-home">DREAM DESTINATION</h2>
+                                    <a href="#" class="btn-home">Explore More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+
+                            <div class="home-content img-2">
+                                <div class="content-home">
+
+                                    <h3 class="heading-home">TOUES & TRAVEL</h3>
+                                    <h2 class="heading-lg-home">Let's Discover The World Together</h2>
+                                    <a href="#" class="btn-home">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- bootstrap carousal end  -->
+            </div>
+        </div>
+        <!-- end home section  -->
+
+    </div>
+    <!-- end header  -->
+
+    <!-- start silection  -->
+    <div class="silection">
+        <div class="silection-container">
+            <select name="Countrys" id="Countrys" class="countries boxes">
+                <option value="country0">Countries</option>
+                <option value="country0">India</option>
+                <option value="country0">Africa</option>
+                <option value="country0">Srilanka</option>
+                <option value="country0">Amerika</option>
+            </select>
+            <select name="Destination" id="Destination" class="destination boxes">
+                <option value="destination">Destination</option>
+                <option value="country0">India</option>
+                <option value="country0">Africa</option>
+                <option value="country0">Srilanka</option>
+                <option value="country0">Amerika</option>
+            </select>
+            <select name="Budget" id="Budget" class="budgets boxes">
+                <option value="budgets">Budget</option>
+                <option value="country0">1000</option>
+                <option value="country0">2000</option>
+                <option value="country0">3000</option>
+                <option value="country0">4000</option>
+            </select>
+            <select name="Duration" id="Duration" class="duration boxes">
+                <option value="duration">Duration</option>
+                <option value="country0">1000</option>
+                <option value="country0">2000</option>
+                <option value="country0">3000</option>
+                <option value="country0">4000</option>
+            </select>
+            <a href="#" class="select-btn">Submit</a>
+        </div>
+    </div>
+    <!-- end silection  -->
+
+    <!-- About Section  -->
+    <section class="about">
+        <h2 class="heading-about">ABOUT OUR TRAVEL AGENCY</h2>
+        <p class="para-about-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eaque hic incidunt
+            ducimus, voluptates unde odit eos itaque velit, accusamus iure distinctio mollitia facilis dolorem inventore
+            deleniti? Doloribus, enim eaque.</p>
+
+        <div class="container about-us-content">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <div class="img-about">
+                        <img src="public/images/travelagensis1.jpg" class="img-fluid image-content" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="content-about">
+                        <h4 class="heading-content">About Us</h4>
+                        <p class="para-content-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                            eaque suscipit rerum, sint similique blanditiis vitae culpa, dolor reiciendis fugit totam
+                            voluptates recusandae cupiditate libero esse. Maxime quibusdam doloribus enim libero
+                            numquam, ad facilis deserunt dignissimos ipsam commodi ipsa explicabo dolorum expedita fugit
+                            molestias vitae tempora nemo quis. Fugiat minima debitis eius cupiditate, suscipit itaque
+                            dicta quaerat perspiciatis sint eaque iure odit explicabo nisi id sapiente officia facilis
+                            deleniti architecto! Cupiditate sequi temporibus sit corrupti dolores. Est sit
+                            necessitatibus deleniti ea iure, rem minima pariatur recusandae sapiente ipsam saepe,
+                            aperiam obcaecati optio impedit atque vitae eveniet esse quod in vero?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="img-about">
+                        <img src="public/images/travelagensis2.jpg" class="img-fluid image-content" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End about section  -->
+
+    <!-- Start Services  -->
+    <section class="services">
+        <h4 class="heading_sm">Services</h4>
+        <h2 class="heading_lg">Travel & Tour Services</h2>
+        <div class="container container-services">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 px-lg-2">
+                    <div class="content-services">
+                        <div class="image-container">
+                            <img src="public/images/Flag-Globe.jpg" class="image-service" alt="">
+                        </div>
+
+                        <h3 class="heading-tour">Diffrtent Countries</h3>
+                        <p class="para-tour">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn-service">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2">
+                    <div class="content-services">
+                        <div class="image-container">
+                            <img src="public/images/mountains.jpg" class="image-service" alt="">
+                        </div>
+
+                        <h3 class="heading-tour">Mountains Tours</h3>
+                        <p class="para-tour">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn-service">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2">
+                    <div class="content-services">
+                        <div class="image-container">
+                            <img src="public/images/travels.jpg" class="image-service" alt="">
+                        </div>
+
+                        <h3 class="heading-tour">Travel Guide</h3>
+                        <p class="para-tour">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn-service">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 px-lg-2">
+                    <div class="content-services">
+                        <div class="image-container">
+                            <img src="public/images/hotel.jpg" class="image-service" alt="">
+                        </div>
+
+                        <h3 class="heading-tour">Hotel Booking</h3>
+                        <p class="para-tour">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn-service">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service section end  -->
+
+    <!-- Packages section start  -->
+    <section class="packages">
+        <h4 class="heading_sm">Packages</h4>
+        <h2 class="heading_lg">Travel & Tour Packages</h2>
+
+        <div class="container-packages">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 my-md-2">
+                        <div class="content-packages">
+                            <div class="img-package">
+                                <img src="public/images/travels_place1.jpg" alt="" class="image-package">
+                            </div>
+                            <div class="content-package-container">
+                                <div class="details-package">
+                                    <p class="detail-text"><span class="bi bi-geo-alt-fill detail-icon"></span>India</p>
+                                    <p class="detail-text"><span class="bi bi-calendar-fill detail-icon"></span>3 Days
+                                    </p>
+                                    <p class="detail-text"><span class="bi bi-people-fill detail-icon"></span>2 Person
+                                    </p>
+                                </div>
+                                <h2 class="content-package-heading">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.</h2>
+                                <hr>
+                                <div class="rating">
+                                    <p class="rait"><span class="bi bi-star-fill rait-icon"></span>4.8(150)</p>
+                                    <h4 class="price"><span class="bi bi-currency-rupee price-icon"></span>120</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-md-2">
+                        <div class="content-packages">
+                            <div class="img-package">
+                                <img src="public/images/travels_place2.jpg" alt="" class="image-package">
+                            </div>
+                            <div class="content-package-container">
+                                <div class="details-package">
+                                    <p class="detail-text"><span class="bi bi-geo-alt-fill detail-icon"></span>India</p>
+                                    <p class="detail-text"><span class="bi bi-calendar-fill detail-icon"></span>3 Days
+                                    </p>
+                                    <p class="detail-text"><span class="bi bi-people-fill detail-icon"></span>2 Person
+                                    </p>
+                                </div>
+                                <h2 class="content-package-heading">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.</h2>
+                                <hr>
+                                <div class="rating">
+                                    <p class="rait"><span class="bi bi-star-fill rait-icon"></span>4.8(150)</p>
+                                    <h4 class="price"><span class="bi bi-currency-rupee price-icon"></span>120</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-2">
+                        <div class="content-packages">
+                            <div class="img-package">
+                                <img src="public/images/travels_place4.jpg" alt="" class="image-package">
+                            </div>
+                            <div class="content-package-container">
+                                <div class="details-package">
+                                    <p class="detail-text"><span class="bi bi-geo-alt-fill detail-icon"></span>India</p>
+                                    <p class="detail-text"><span class="bi bi-calendar-fill detail-icon"></span>3 Days
+                                    </p>
+                                    <p class="detail-text"><span class="bi bi-people-fill detail-icon"></span>2 Person
+                                    </p>
+                                </div>
+                                <h2 class="content-package-heading">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.</h2>
+                                <hr>
+                                <div class="rating">
+                                    <p class="rait"><span class="bi bi-star-fill rait-icon"></span>4.8(150)</p>
+                                    <h4 class="price"><span class="bi bi-currency-rupee price-icon"></span>120</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Packages Section End  -->
+
+    <!-- footer start  -->
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="nav-brand-logo footer-logo">Turi<span>st.</span></h3>
+                        <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ea
+                            dignissimos qui praesentium dolorem! Incidunt iste numquam illum dolor suscipit quaerat ab
+                            consectetur error unde nesciunt, veniam quas, placeat dolores modi adipisci delectus
+                            recusandae autem, accusamus officiis ducimus? Est, exercitationem?
+                        </p>
+                        <h5 class="heading-sm-footer">FOLLOW US</h5>
+                        <div class="social-links-footer">
+                            <span class="bi bi-facebook social-icon-footer"></span>
+                            <span class="bi bi-instagram social-icon-footer"></span>
+                            <span class="bi bi-whatsapp social-icon-footer"></span>
+                            <span class="bi bi-snapchat social-icon-footer"></span>
+                            <span class="bi bi-twitter social-icon-footer"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-details">
+                            <h3 class="heading-footer">Pages Links</h3>
+                            <!-- navbar copy from heading -->
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link footer-link" aria-current="page" href="public/home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link footer-link" href="public/about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link footer-link" href="public/tours&services.html">Tours &
+                                        Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link footer-link" href="public/packages.html">Packages</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link footer-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        FAQ
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-footer">
+                                        <li><a class="dropdown-item dropdown-footer-item" href="public/about.html">About
+                                                Us</a></li>
+                                        <li><a class="dropdown-item dropdown-footer-item"
+                                                href="public/about.html">Company</a>
+                                        </li>
+                                        <li><a class="dropdown-item dropdown-footer-item"
+                                                href="public/contact.html">Experience</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link footer-link" href="public/contact.html">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-details">
+                            <h3 class="heading-footer">Contact Us</h3>
+                            <div class="contact-footer-para">
+                                <p class="text-content"><span
+                                        class="bi bi-geo-alt-fill icon-content"></span>Amirpet,hydrabad</p>
+                                <p class="text-content"><span
+                                        class="bi bi-envelope-fill icon-content"></span>emailid123@gmail.com</p>
+                                <p class="text-content"><span class="bi bi-phone-fill icon-content"></span>1234567890
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="footer-rights">
+                <p class="rights-para">&copy; Copyright 2022 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script & Jquery -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
