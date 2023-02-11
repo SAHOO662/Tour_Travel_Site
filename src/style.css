@@ -11,6 +11,9 @@ body {
 }
 
 /* header position start  */
+.navbar{
+    border-bottom: 1px solid gray;
+}
 .nav-brand-logo {
     font-size: 38px;
     font-weight: 700;
